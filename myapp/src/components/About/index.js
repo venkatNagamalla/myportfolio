@@ -1,7 +1,7 @@
 import "./index.css";
 
 const About = () => (
-  <section className="about-container">
+  <section id="about" className="about-container">
     <div className="hr-container mobile animation1">
         <h1 className="about-heading">About Me</h1>
     </div>

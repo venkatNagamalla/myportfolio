@@ -8,11 +8,8 @@ const App = () => (
   <>
     <Headers />
     <Home/>
-    <hr/>
     <About/>
-    <hr/>
     <Skills/>
-    <hr/>
   </>
 );
 
