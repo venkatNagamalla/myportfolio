@@ -1,0 +1,24 @@
+
+footer{
+    background-color: #000000;
+    margin-top: 70px;
+}
+
+footer button{
+    width: 100%;
+    background-color: #64626255;
+    height: 40px;
+    font-family: "Roboto";
+    color:#fff;
+    border:none;
+    cursor: pointer;
+}
+
+.copyright{
+    color:#ffffff7a;
+    font-family: "Roboto";
+    padding: 20px 5px 20px 5px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 5px;
+}

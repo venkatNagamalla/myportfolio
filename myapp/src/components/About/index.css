@@ -3,7 +3,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     margin-top: 30px;
+    height: 40rem;
     margin-bottom: 30px;
 }
 
@@ -12,6 +14,24 @@
     font-weight: 500;
     text-align: center;
     font-family: "Roboto";
+}
+
+.about-text-container a{
+    align-self: center;
+    margin-top: 10px;
+}
+
+.download{
+    margin: 10px;
+    padding: 5px;
+    font-family: "Roboto";
+    background-color: #FF8343;
+    border:none;
+    height: 35px;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 3px;
+    color:#fff;
 }
 
 .about-text{
@@ -28,6 +48,8 @@
 .about-text-container{
     width: 100%;
     margin: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .about-img{
@@ -122,6 +144,11 @@
         justify-content: space-between;
         width: 90%;
     }
+    
+    .download{
+        margin: 18px 0px 0px 0px;
+    }
+
     .about-img-container{
         width: 45%;
         order:1;
@@ -132,6 +159,11 @@
         flex-direction: column;
         margin: 0px;
     }
+    
+    .about-text-container a{
+        align-self: flex-start;
+    }
+
     .about-text{
         font-size: 18px;
         text-align: left;
@@ -158,6 +190,10 @@
         align-self: flex-start;
 
     }
+     .about-container{
+        height: 35rem;
+     }
+
     /* .animation1{
         animation: appear1 linear;
         animation-timeline: view();

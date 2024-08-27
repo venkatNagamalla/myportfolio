@@ -29,6 +29,7 @@
 .container{
     width: 100%;
     margin-top: 20px;
+    padding: 10px;
 }
 
 .skills-icons-container {
@@ -189,10 +190,10 @@
 
 @media screen and (min-width: 768px) {
   .skill-icon {
-    width: calc(20% - 10px);
+    width: calc(25% - 80px);
   }
   .container{
-    width: 70%;
+    width: 80%;
   }
   .skills-heading{
     font-size: 45px;

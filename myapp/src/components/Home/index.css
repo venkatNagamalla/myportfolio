@@ -14,7 +14,7 @@
 }
 
 main{
-    margin-top: 20px;
+    margin-top: 65px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -44,7 +44,7 @@ main{
 .hii{
     font-family: "Qwitcher Grypen", cursive;
     color: #FF8343;
-    font-size: 50px;
+    font-size: 58px;
     margin-right: 8px;
 }
 
@@ -62,7 +62,30 @@ main{
     margin-top: 10px;
 }
 
+.hero-btns-container{
+    border:1px solid #000;
+    
+}
 
+.icons-container{
+    margin-top: 10px;
+}
+
+.icons{
+    text-decoration: none;
+    outline:none;
+    font-size:25px;
+    margin-right: 13px;
+    cursor: pointer;
+}
+
+.in{
+    color:rgb(50, 50, 148);
+}
+
+.git{
+    color:black;
+}
 
 @media screen and (min-width:768px){
     main{
@@ -72,6 +95,9 @@ main{
         align-items: center;
         margin-bottom: 15px;
         margin-top: 60px;
+    }
+    .icons{
+        font-size: 35px;
     }
     
     .hero-section{
@@ -90,5 +116,8 @@ main{
     }
     .role{
         font-size: 20px;
+    }
+    .hii{
+        font-size: 65px;
     }
 }

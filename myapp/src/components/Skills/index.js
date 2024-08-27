@@ -1,7 +1,7 @@
 import "./index.css";
 
 const Skills = () => (
-  <section className="skills-container">
+  <section id="skills" className="skills-container">
 
     <div className="skills-heading-container">
         <h1 className="skills-heading">Skills</h1>
