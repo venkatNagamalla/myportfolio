@@ -54,7 +54,9 @@
     align-items: center;
 }
 
-.animation1{
+/* animations are not working after publishing */
+
+/* .animation1{
     animation: appear1 linear;
     animation-timeline: view();
     animation-range: entry 15% cover 15%;
@@ -94,7 +96,7 @@
         transform: translate(0%);
 
     }
-}
+} */
 
 
 .hr-container{
@@ -156,11 +158,11 @@
         align-self: flex-start;
 
     }
-    .animation1{
+    /* .animation1{
         animation: appear1 linear;
         animation-timeline: view();
         animation-range: entry 15% cover 45%;
-    }
+    } */
 
 }
 

@@ -2,14 +2,14 @@ import "./index.css";
 
 const About = () => (
   <section id="about" className="about-container">
-    <div className="hr-container mobile animation1">
+    <div className="hr-container mobile">
         <h1 className="about-heading">About Me</h1>
     </div>
     <div className="about-text-img-container">
-    <div className="about-img-container animation2">
+    <div className="about-img-container">
         <img className="about-img" src="https://i.pinimg.com/564x/e4/56/94/e4569443714172f2773aea229195685c.jpg" alt="code"/>
     </div>
-    <div className="about-text-container animation1">
+    <div className="about-text-container">
     <div className="hr-container animation desktop">
         <h1 className="about-heading">About Me</h1>
     </div>

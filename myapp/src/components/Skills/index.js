@@ -3,11 +3,11 @@ import "./index.css";
 const Skills = () => (
   <section className="skills-container">
 
-    <div className="skills-heading-container animation1">
+    <div className="skills-heading-container">
         <h1 className="skills-heading">Skills</h1>
     </div>
       
-      <div className="container skills-animation1">
+      <div className="container">
         <h1>Front End Technologies</h1>
         <ul className="skills-icons-container">
           <li className="skill-icon">
@@ -33,7 +33,7 @@ const Skills = () => (
         </ul>
       </div>
 
-      <div className="container skills-animation2">
+      <div className="container">
         <h1>Back End Technologies</h1>
         <ul className="skills-icons-container">
           <li className="skill-icon">
@@ -53,7 +53,7 @@ const Skills = () => (
         </ul>
       </div>
 
-      <div className="container skills-animation3">
+      <div className="container">
       <h1>Tools</h1>
          <ul className="skills-icons-container">
          <li className="skill-icon">
